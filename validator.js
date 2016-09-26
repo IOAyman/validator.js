@@ -626,7 +626,7 @@
         return false;
       }
 
-      function isNull(str) {
+      function isEmpty(str) {
         assertString(str);
         return str.length === 0;
       }
@@ -1159,7 +1159,7 @@
         isHexColor: isHexColor,
         isMD5: isMD5,
         isJSON: isJSON,
-        isNull: isNull,
+        isEmpty: isEmpty,
         isLength: isLength, isByteLength: isByteLength,
         isUUID: isUUID, isMongoId: isMongoId,
         isDate: isDate, isAfter: isAfter, isBefore: isBefore,
